@@ -1,0 +1,134 @@
+.main{
+    display: flex;
+}
+
+.two{
+    animation-name: Khalid;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Khalid {
+    0%{
+        background-color: blue;
+        top: 0;
+        left: 0;
+        /* transform: rotate(30deg); */
+        transform: scale(20%);
+    }
+    25%{
+        background-color: rgb(0, 255, 85);
+        top: 0;
+        left: 0;
+        /* transform: rotate(60deg); */
+        transform: scale(40%);
+    }
+    50%{
+        background-color: rgb(255, 81, 0);
+        top: 0;
+        left: 0;
+        /* transform: rotate(90deg); */
+        transform: scale(60%);
+    }
+    75%{
+        background-color: rgb(255, 251, 0);
+        top: 0;
+        left: 0;
+        /* transform: rotate(180deg); */
+        transform: scale(80%);
+    }
+    100%{
+        background-color: rgb(200, 255, 0);
+        top: 0;
+        left: 0;
+        /* transform: rotate(360deg); */
+        transform: scale(100%);
+    }
+}
+
+.four{
+    animation-name: Abbas;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+
+@keyframes Abbas {
+    0%{
+        background-color: blue;
+        top: 0;
+        left: 0;
+        /* transform: rotate(30deg); */
+        transform: scale(20%);
+    }
+    25%{
+        background-color: rgb(0, 255, 85);
+        top: 0;
+        left: 0;
+        /* transform: rotate(60deg); */
+        transform: scale(40%);
+    }
+    50%{
+        background-color: rgb(255, 81, 0);
+        top: 0;
+        left: 0;
+        /* transform: rotate(90deg); */
+        transform: scale(60%);
+    }
+    75%{
+        background-color: rgb(255, 251, 0);
+        top: 0;
+        left: 0;
+        /* transform: rotate(180deg); */
+        transform: scale(80%);
+    }
+    100%{
+        background-color: rgb(200, 255, 0);
+        top: 0;
+        left: 0;
+        /* transform: rotate(360deg); */
+        transform: scale(100%);
+    }
+}
+
+
+
+.red{
+    background-color: red;
+    width: 10%;
+    height: 80px;
+}
+
+.blue{
+    background-color: blue;
+    width: 10%;
+    height: 80px;
+}
+
+.yellow{
+    background-color: yellow;
+    width: 10%;
+    height: 80px;
+}
+
+.brown{
+    background-color: brown;
+    width: 10%;
+    height: 80px;
+}
+
+.pink{
+    background-color: pink;
+    width: 10%;
+    height: 80px;
+}
